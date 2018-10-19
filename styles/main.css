@@ -4,9 +4,13 @@ body {
   font-family: Arial;
 }
 
+hr {
+  color: white;
+}
+
 .btn-download {
   background-color: #d7d7d7;
-  border: 0.1em solid #acacac; ;
+  border: 0.126em solid #acacac;
   border-radius: 0.5em;
   color: white;
   font-size: 2em;
@@ -50,7 +54,7 @@ body {
   background-color: white;
   border: 0.126em solid #acacac;
   border-radius: 0.45em;
-  color: blue;
+  color: #0da6d6;
   display: table-cell;
   height: 8em;
   margin: 0.5em;

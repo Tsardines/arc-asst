@@ -33,8 +33,6 @@
 
   .section-three-text-boxes { margin-top: -29em; }
 
-  /* ----- */
-
   .section-three-text-boxes h1 { font-size: 1.5em; }
 
   .section-three-text-boxes p { font-size: 1.25em; }
@@ -43,11 +41,13 @@
 
   .section-four-text-boxes h1 { font-size: 3em; }
 
+  td { padding: 1em; }
+
   /* ----- */
 
   .versions-bottom { display: flex; justify-content: space-around; width: 55%; }
 
-  .v1, .v2 { font-size: 2em; height: 9vh; text-align: center; width: 12vw; }
+  .v1, .v2 { font-size: 1.8em; height: 9vh; text-align: center; width: 12vw; }
 
 }
 
@@ -83,17 +83,16 @@
 
   /* ----- */
 
-  .section-four-text-boxes {
-    margin-bottom: -1em;
-  }
+  .section-four-text-boxes { margin-bottom: -1em; }
 
-  .section-four-text-boxes h1 {
-    font-size: 2.5em;
-  }
+  .section-four-text-boxes h1 { font-size: 2.5em; }
+
+  td { padding: 0.65em; }
+
+
 
   /* ----- */
 
   .v1, .v2 { font-size: 1.2em; height: 2em; width: 9em; }
-
 
 }
