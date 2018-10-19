@@ -21,13 +21,20 @@
 
   .signup p { display: none; }
 
-  .section-two {white-space: nowrap; }
+  .section-two { background-color: green; display: flex; flex-direction: column; float: right; margin: 2em 0 0 35em; }
 
-  .arteric-phones { float: right; }
+  .arteric-phones { height: 50vh; width: 30vw; }
+
+  .btn-download { margin: 0.5em 0 0.5em 4.8em; padding: 0.25em; }
+
+  /* .arteric-phones { float: right; } */
 
   /* ----- */
 
   .section-three-text-boxes, .section-four-text-boxes { float: left; width: 55%; }
+
+  .section-three-text-boxes { margin-top: -29em; }
+
 }
 
 
