@@ -1,0 +1,38 @@
+/*
+  ##Device = Desktops
+  ##Screen = 1281px/89vw to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  body { background-color: red; }
+
+
+}
+
+
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  body { background-color: orange; }
+
+
+}
+
+
+
+
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+ body { background-color: yellow; }
+
+
+}
