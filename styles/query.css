@@ -34,7 +34,7 @@
 
   .versions-bottom { display: flex; justify-content: space-around; width: 55%; }
 
-  .v1, .v2 { font-size: 1.8em; height: 9vh; text-align: center; width: 12vw; }
+  .v1, .v2 { font-size: 1.8em; height: 9vh; text-align: center; width: 10vw; }
 
 }
 
@@ -76,7 +76,7 @@
 
   .versions-bottom { display: flex; justify-content: space-around; width: 50%; }
 
-  .v1, .v2 { font-size: 1.8em; height: 9vh; text-align: center; width: 11vw; }
+  .v1, .v2 { font-size: 1.8em; height: 9vh; text-align: center; width: 10vw; }
 
 }
 
@@ -112,9 +112,7 @@
 
   .section-four-text-boxes h1 { font-size: 2.5em; }
 
-  tr { width: 20vw; }
-
-  td { padding: 0.65em; }
+  td { padding: 0.65em; width: 20vw; }
 
 
 
