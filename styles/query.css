@@ -6,7 +6,7 @@
 @media (min-width: 1281px) {
   body { background-color: red; }
 
-
+  .signup p { display: none; }
 }
 
 
@@ -19,7 +19,7 @@
 @media (min-width: 1025px) and (max-width: 1280px) {
   body { background-color: orange; }
 
-
+  .signup p { display: none; }
 }
 
 
@@ -32,7 +32,17 @@
 */
 
 @media (min-width: 320px) and (max-width: 480px) {
- body { background-color: yellow; }
+ body { background-color: blue; display: flex; flex-direction: column; justify-content: center; margin: 2em; }
+
+  .logo { padding-bottom: 1.75em; vertical-align: middle; }
+
+  .signup { background-color: white; color: black; border-radius: 2em; padding: 0.5em; text-align: center; }
+
+  .btn-download {   margin: 0.5em 0 0.5em 6.5em; padding: 0.25em; }
+
+  /* ----- */
+
+
 
 
 }

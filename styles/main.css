@@ -1,3 +1,22 @@
 body {
   /* background-color: turquoise; */
+  color: white;
 }
+
+.btn-download {
+  background-color: grey;
+  border: 0.1em solid black;
+  border-radius: 0.5em;
+  color: white;
+  font-size: 2em;
+  text-align: center;
+  width: 5em;
+}
+
+/* ----- */
+
+  .section-three-text-boxes h1 {
+    margin-bottom: 0.1em;
+  }
+
+/* ----- */
