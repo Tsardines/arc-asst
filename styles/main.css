@@ -1,6 +1,7 @@
 body {
-  /* background-color: turquoise; */
+  background-color: #0da6d6;
   color: white;
+  font-family: Arial;
 }
 
 .btn-download {
@@ -16,7 +17,18 @@ body {
 /* ----- */
 
   .section-three-text-boxes h1 {
-    margin-bottom: 0.1em;
+    margin-bottom: -0.25em;
   }
 
 /* ----- */
+
+.section-four-text-boxes h1 { /* nunc ut libeo */
+  font-style: italic;
+  margin-bottom: -0.1em;
+  text-align: center;
+}
+
+.table {
+  padding-bottom: 2em;
+  table-layout: fixed;
+}
