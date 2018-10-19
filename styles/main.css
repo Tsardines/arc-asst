@@ -5,8 +5,8 @@ body {
 }
 
 .btn-download {
-  background-color: grey;
-  border: 0.1em solid black;
+  background-color: #d7d7d7;
+  border: 0.1em solid #acacac; ;
   border-radius: 0.5em;
   color: white;
   font-size: 2em;
@@ -17,18 +17,44 @@ body {
 /* ----- */
 
   .section-three-text-boxes h1 {
-    margin-bottom: -0.25em;
+    margin-bottom: 0.25em;
+  }
+
+  .section-three-text-boxes p {
+    margin-bottom: 1em;
   }
 
 /* ----- */
 
 .section-four-text-boxes h1 { /* nunc ut libeo */
+  font-family: "HelveticaNeue-CondensedBold", "HelveticaNeueBoldCondensed", "HelveticaNeue-Bold-Condensed", "Helvetica Neue Bold Condensed", "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosCnBold', "Helvetica", "Tahoma", "Geneva", "Arial Narrow", "Arial", sans-serif; font-weight: 700; font-stretch: condensed;
   font-style: italic;
-  margin-bottom: -0.1em;
+  font-weight: bold;
   text-align: center;
 }
 
-.table {
+
+
+.section-four-text-boxes {
   padding-bottom: 2em;
   table-layout: fixed;
+}
+
+/* ----- */
+
+.versions-bottom {
+  display: flex;
+}
+
+.v1, .v2 {
+  background-color: white;
+  border: 0.126em solid #acacac;
+  border-radius: 1em;
+  color: blue;
+  display: table-cell;
+  height: 8em;
+  margin: 0.5em;
+  padding: 1.5em;
+  /* text-align: center; */
+  width: 12em;
 }
