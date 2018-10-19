@@ -49,7 +49,7 @@ body {
 .v1, .v2 {
   background-color: white;
   border: 0.126em solid #acacac;
-  border-radius: 1em;
+  border-radius: 0.45em;
   color: blue;
   display: table-cell;
   height: 8em;
