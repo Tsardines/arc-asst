@@ -2,6 +2,7 @@ body {
   background-color: #0da6d6;
   color: white;
   font-family: Arial;
+  overflow-x: hidden;
 }
 
 hr {
@@ -36,8 +37,6 @@ hr {
   font-weight: bold;
   text-align: center;
 }
-
-
 
 .section-four-text-boxes {
   padding-bottom: 2em;
